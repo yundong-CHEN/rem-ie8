@@ -26,10 +26,10 @@ if(navigator.userAgent.indexOf("MSIE") > 0) {
 	} else if(navigator.userAgent.indexOf("MSIE 8.0") > 0 && !window.innerWidth) { //这里是重点，你懂的
 		//ie8 什么都不做
 	} else {
-		fontEl.innerHTML = 'html{font-size:' + rem + 'px!important;}';
+		fontEl.innerHTML = 'html{font-size:' + rem + 'px!important;}';//ie9及以上
 	}
 } else {
-	fontEl.innerHTML = 'html{font-size:' + rem + 'px!important;}';
+	fontEl.innerHTML = 'html{font-size:' + rem + 'px!important;}';//非ie
 }
 // 给js调用的，某一dpr下rem和px之间的转换函数
 window.rem2px = function(v) {
