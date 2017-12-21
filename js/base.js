@@ -8,12 +8,12 @@ $(function(){
 			$(this).css('width','1.65rem')
 		}
 	})
-	$(".voice_2 ul li").click(function(){
+	$(".voice_2 ul li").hover(function(){
 		var li_index = $(this).index();
-		$(this).animate({width:'3.3rem'},'3.3rem');
+		$(this).css('width','3.3rem')
 		$(this).find(".unfold").show();
 		$(this).find(".fold").hide();
-		$(this).siblings().animate({width:'1.65rem'},'3.3rem');
+		$(this).siblings().css('width','1.65rem')
 		$(this).siblings().find(".unfold").hide();
 		$(this).siblings().find(".fold").show();
 	})

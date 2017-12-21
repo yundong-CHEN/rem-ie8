@@ -221,7 +221,7 @@ div {
 	behavior: url(js/background.htc);
 }
 
-img {
+.unfold img {
 	height: 1.66rem;
 	overflow: auto;
 	margin: auto;
