@@ -204,7 +204,7 @@ div {
 }
 
 .voice_2 .fold {
-	width: 1.65rem;
+	width: 1.64rem;
 	height: 100%;
 	position: relative;
 	-ms-behavior: url(js/background.htc);
@@ -212,7 +212,7 @@ div {
 }
 
 .voice_2 .unfold {
-	width: 3.3rem;
+	width: 3.2rem;
 	height: 100%;
 	display: none;
 	position: relative;
